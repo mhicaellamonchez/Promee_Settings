@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Promee_Settings.MainPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="73" />
+                </Grid.RowDefinitions>
+
+
+
+                <BoxView Color="#FFB800"
+                         Grid.Row="0" />
+                <Image
+                Source="settings_logo.png"
+                HeightRequest="25"
+                HorizontalOptions="Center" />
+
+
+
+                <Image
+                Source="back_arrow.png"
+                HeightRequest="25"
+                HorizontalOptions="Start" 
+                Margin="20, 0, 0, 0"/>
+            </Grid>
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Image
+                Source="notif_icon.png"
+                HeightRequest="30"
+                HorizontalOptions="Start"
+                Margin="30, 20, 0 , 0" />
+
+
+
+                <Label
+                Text="Notification"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                FontSize="15"
+                Margin="15, 25, 125, 0"/>
+
+
+
+                <Image
+                Source="arrow_icon.png"
+                HeightRequest="30"
+                HorizontalOptions="End"
+                Margin="60, 20, 0 , 0" />
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Image
+                 Source="night_mode_icon.png"
+                 HeightRequest="30"
+                 HorizontalOptions="Start"
+                 Margin="30, 20, 0 , 0" />
+
+
+
+                <Label
+                 Text="Night Mode"
+                 TextColor="Black"
+                 HorizontalOptions="Center"
+                 FontSize="15"
+                 Margin="15, 25, 125, 0"/>
+
+
+
+                <Image
+                Source="arrow_icon.png"
+                HeightRequest="30"
+                HorizontalOptions="End"
+                Margin="60, 20, 0 , 0" />
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Image
+                Source="language_icon.png"
+                HeightRequest="30"
+                HorizontalOptions="Start"
+                Margin="30, 20, 0 , 0" />
+
+
+
+                <Label
+                Text="Language"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                FontSize="15"
+                Margin="15, 25, 140, 0"/>
+
+
+
+                <Image
+                Source="arrow_icon.png"
+                HeightRequest="30"
+                HorizontalOptions="End"
+                Margin="60, 20, 0 , 0" />
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Image
+                Source="about_icon.png"
+                HeightRequest="30"
+                HorizontalOptions="Start"
+                Margin="30, 20, 0 , 0" />
+
+
+
+                <Label
+                Text="About"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                FontSize="15"
+                Margin="15, 25, 165, 0"/>
+
+
+
+                <Image
+                Source="arrow_icon.png"
+                HeightRequest="30"
+                HorizontalOptions="End"
+                Margin="60, 20, 0 , 0" />
+            </StackLayout>
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>
+
